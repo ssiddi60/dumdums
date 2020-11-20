@@ -112,7 +112,8 @@ div.page::-webkit-scrollbar {
   line-height:1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color:#333;
+  color:#FFFFFF;
+  font-color:#FFFFFF;
   background-color:  #EDF6F9;
 
 }
@@ -243,7 +244,7 @@ main>footer .feature {
 }
 
 .button{
-  background-color: white;
+  background-color: #006D77;
   width: 150px;
   height: 25px;
   font-size: 12pt;
@@ -282,6 +283,9 @@ main>footer .feature {
   border-radius: 12pt;
   font-size: 13pt;
   font-weight: bold;
+  border-color: black;
+  background-color: #006D77;
+  margin-bottom: 40px;
 }
 
 .homeButton, .addButton, .notifButtons,  #cancelNewMedicineButton, #cancelConfirmNewMedicineButton, #backSymptomInfoButton, .clickMedSymptom{
@@ -383,6 +387,10 @@ th{
 td{
   vertical-align: middle;
   padding-bottom: 10px;
+}
+
+#row {
+  margin-top:50%;
 }
 
 
