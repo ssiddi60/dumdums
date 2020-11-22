@@ -88,6 +88,8 @@ div.page::-webkit-scrollbar {
   background-color:  #EDF6F9;
 }
 
+
+
 #app * {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -458,3 +460,85 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+
+h1{
+  position: absolute;
+  width: 219px;
+  height: 50px;
+  left: 79px;
+  top: 75px;
+
+  color: #000000;
+}
+
+.expensesRect{
+  position: absolute;
+  width: 80px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+
+  background: #37505C;
+  border: 1px solid #EDF6F9;
+  box-sizing: border-box;
+}
+ 
+.expensesRect a{
+  text-decoration: none;
+  font-size: 13px;
+  color: #f2f2f2;
+  padding-left: 13px;
+}
+
+.savingsRect{
+  position: absolute;
+  width: 80px;
+  height: 45px;
+  left: 81px;
+  top: 0px;
+
+  background: #37505C;
+  border: 1px solid #EDF6F9;
+  box-sizing: border-box;
+}
+
+.savingsRect a{
+  text-decoration: none;
+  font-size: 13px;
+  color: #f2f2f2;
+  padding-left: 17px;
+}
+
+.wishlistRect{
+  position: absolute;
+  width: 80px;
+  height: 45px;
+  left: 161px;
+  top: 0px;
+
+  background: #37505C;
+  border: 1px solid #EDF6F9;
+  box-sizing: border-box;
+}
+
+.wishlistRect a{
+  text-decoration: none;
+  font-size: 13px;
+  color: #f2f2f2;
+  padding-left: 17px;
+}
+
+.rectangle1{
+  position: absolute;
+  width: 284px;
+  height: 62px;
+  left: 56px;
+  top: 266px;
+
+  background: #EDF6F9;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+
