@@ -462,7 +462,7 @@ input:checked + .slider:before {
 }
 
 
-h1{
+.savingsTitle{
   position: absolute;
   width: 219px;
   height: 50px;
@@ -531,14 +531,90 @@ h1{
 
 .rectangle1{
   position: absolute;
-  width: 284px;
-  height: 62px;
-  left: 56px;
-  top: 266px;
+  width: 180px;
+  height: 50px;
+  left: 35px;
+  top: 153px;
 
   background: #EDF6F9;
   border: 1px solid #000000;
   box-sizing: border-box;
+}
+
+.currTotal{
+  color: #000000;
+  padding-top: 5px;
+}
+
+.adding {
+  left: 35px;
+  top: 150px;
+}
+
+.adding label{
+  position: absolute;
+  color: #000000;
+  left: 35px;
+  top: 300px;
+}
+
+.adding input{
+  width: 75px;
+  position: absolute;
+  color: #000000;
+  left: 125px;
+  top: 295px;
+}
+
+.adding #minusBTN{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: center;
+  padding: 12px 12px 12px 12px;
+  text-align: center;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 125px;
+  top: 320px;
+
+  background: #EA9999;
+  border-radius: 50px;
+}
+
+.adding #minusLBL{
+  position: absolute;
+  color: #000000;
+  left: 137px;
+  top: 326px;
+  font-size: 13px;
+}
+
+
+.adding #plusBTN{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: center;
+  padding: 12px 12px 12px 12px;
+  text-align: center;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 175px;
+  top: 320px;
+
+  background: #5DB09C;
+  border-radius: 50px;
+}
+
+.adding #plusLBL{
+  position: absolute;
+  color: #000000;
+  left: 185px;
+  top: 326px;
+  font-size: 13px;
 }
 
 
