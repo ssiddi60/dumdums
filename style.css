@@ -103,7 +103,6 @@ div.page::-webkit-scrollbar {
 #app {
   width:240px;
   height:426px;
-  background-color:#fefefe;
   border-radius:4px;
   border:1px solid #999;
   position:relative;
@@ -252,6 +251,7 @@ main>footer .feature {
   font-size: 12pt;
   font-family:'Helvetica Neue';
   border-radius: 10px;
+  color: white;
 }
 
 .button:hover {
@@ -260,6 +260,7 @@ main>footer .feature {
 
 #title{
   font-size: 25px;
+  padding-top:10px;
   color: #1B3A4B;
 }
 
@@ -288,6 +289,7 @@ main>footer .feature {
   border-color: black;
   background-color: #006D77;
   margin-bottom: 40px;
+  color: white;
 }
 
 .homeButton, .addButton, .notifButtons,  #cancelNewMedicineButton, #cancelConfirmNewMedicineButton, #backSymptomInfoButton, .clickMedSymptom{
@@ -530,10 +532,11 @@ input:checked + .slider:before {
 }
 
 .rectangle1{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   position: absolute;
-  width: 180px;
-  height: 50px;
-  left: 35px;
+  width: 190px;
+  margin-left: 25px;
   top: 153px;
 
   background: #EDF6F9;
@@ -541,9 +544,9 @@ input:checked + .slider:before {
   box-sizing: border-box;
 }
 
-.currTotal{
+.currTotal, .currAmount{
   color: #000000;
-  padding-top: 5px;
+  padding: 5px 5px 5px 5px;
 }
 
 .adding {
@@ -604,7 +607,6 @@ input:checked + .slider:before {
   height: 10px;
   left: 175px;
   top: 320px;
-
   background: #5DB09C;
   border-radius: 50px;
 }
@@ -617,4 +619,7 @@ input:checked + .slider:before {
   font-size: 13px;
 }
 
-
+#piechart {
+  background-color: #EDF6F9;
+  padding-top: 25px;
+}
