@@ -88,8 +88,6 @@ div.page::-webkit-scrollbar {
   background-color:  #EDF6F9;
 }
 
-
-
 #app * {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -224,26 +222,6 @@ main>footer .feature {
   color: white;
 }
 
-.medButton{
-  background-color: white;
-  width: 150px;
-  height: 25px;
-  font-size: 12pt;
-  font-family:'Helvetica Neue';
-  border-radius: 10px;
-  font-weight: bold;
-}
-.medButton:hover, .mainButton:hover{
-  background-color: #98BFC1;
-}
-
-.deleteMedButton{
-  height: 25px;
-  width: 65px;
-  border-radius: 10px;
-
-}
-
 .button{
   background-color: #006D77;
   width: 150px;
@@ -264,22 +242,6 @@ main>footer .feature {
   color: #1B3A4B;
 }
 
-.symButton{
-  width: 200px;
-  height: 80px;
-  border-radius: 12pt;
-  font-size: 13pt;
-  font-weight: bold;
-}
-
-.medSymButton{
-  width: 150px;
-  height: 30px;
-  border-radius: 12pt;
-  font-size: 8.5pt;
-  font-weight: bold;
-}
-
 .mainButton{
   width: 200px;
   height: 30px;
@@ -290,55 +252,6 @@ main>footer .feature {
   background-color: #006D77;
   margin-bottom: 40px;
   color: white;
-}
-
-.homeButton, .addButton, .notifButtons,  #cancelNewMedicineButton, #cancelConfirmNewMedicineButton, #backSymptomInfoButton, .clickMedSymptom{
-  border-radius: 4pt;
-  height: 25px;
-  width: 45px
-  text-align : "center";
-  font-weight: bold;
-}
-
-#medicineFormButton{
-  border-radius: 4pt;
-  height: 45px;
-  width: 85px
-  text-align : "center";
-  font-weight: bold;  
-}
-
-#deleteMedicineButton, #exitMedicineInfoView, #confirmNewMedicineButton{
-  border-radius: 4pt;
-  height: 25px;
-  width: 85px
-  text-align : "center";
-  font-weight: bold;  
-}
-
-#goBackToMedicineFormButton, #cancelAddButton{
-  border-radius: 4pt;
-  height: 45px;
-  width: 85px
-  text-align : "center";
-  font-weight: bold;  
-}
-
-.homeButton, .addButton{
-  width: 40px;
-  height: 30px;
-}
-
-.quickSym{
-  border-radius: 40%;
-}
-
-.addButton:hover, .homeButton:hover, .symButton:hover, .clickMedSymptom:hover, 
-.quickSym:hover, #medicineFormButton:hover, #goBackToMedicineFormButton:hover,
-#cancelNewMedicineButton:hover, #deleteMedicineButton:hover, #deleteMedButton:hover, 
-#exitMedicineInfoView:hover, #cancelConfirmNewMedicineButton:hover, #confirmNewMedicineButton:hover, 
-#cancelAddButton:hover, .notifButtons:hover, .medSymButton:hover, #backSymptomInfoButton:hover{
-  background-color: #98BFC1;
 }
 
 .button{
@@ -356,10 +269,6 @@ background-color: #98BFC1;
 
 
 h1, h2, h3, h4, h5, h6, p, label{
-  color: white;
-}
-
-.medInfo{
   color: white;
 }
 
@@ -621,7 +530,7 @@ input:checked + .slider:before {
 
 #piechart {
   background-color: #EDF6F9;
-  padding-top: 25px;
+  padding-top: 10px;
 }
 
 #progressbar {
@@ -651,7 +560,7 @@ input:checked + .slider:before {
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-left: 70px;
 
 
@@ -680,6 +589,7 @@ input:checked + .slider:before {
   font-style: bold;
   color: #1B3A4B;
   margin-left: 10px;
+  margin-top: 0px;
 }
 
 #wishAmount {
@@ -690,7 +600,7 @@ input:checked + .slider:before {
   margin-top: -30px;
 }
 
-#popup {
+#popup, #update, #updatepopup {
   border: 1px solid black;
   background-color: #A9A9A9;
   width: 220px;
@@ -724,22 +634,27 @@ input:checked + .slider:before {
 }
 
 
-#saveBtn {
+#saveBtn, #saveUpdateBtn {
 width: 75px;
 height: 20px;
-margin-top: 50px;
 background: #5DB09C;
 border-radius: 100px;
 }
 
-#cancelBtn {
+#cancelBtn, #cancelUpdateBtn {
 width: 75px;
 height: 20px;
-margin-top: 50px;
 margin-left: 20px;
 margin-right: 20px;
 background: #EA9999;
 border-radius: 100px;
+}
+
+#editIcon {
+  width: 40px;
+  height: 40px;
+  margin-top: -35px;
+  margin-left: 200px;
 }
 
 
@@ -862,3 +777,11 @@ border-radius: 100px;
   width: 25px;
 }
 
+
+#deleteIcon{
+  position: absolute;
+  margin-top: -18px;
+  margin-left: 195px;
+  height:25px;
+  width: 25px;
+}

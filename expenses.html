@@ -2,7 +2,17 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+
+	  // Load the Visualization API library and the piechart library.
+	  google.load('visualization', '1.0', {'packages':['corechart']});
+	  google.setOnLoadCallback(drawChart);
+	     // ... draw the chart...
+	</script>
 	<script type="text/javascript" src="expenses.js"></script>
 	
 	<!-- Your custom styles (optional) -->
@@ -27,9 +37,11 @@
 		</header>
 		<div id ="title" align="center" style="margin-top: 65px">Expenses</div>
 		<div id="piechart"> </div>
+		<div id="popup" style="display:none"></div>
+		<div id="updatepopup" style="display:none"></div>
 
-		<a href="addCategory.html"> <button id="addBTN"> Add Category </button> </a>
-		<a href="updateCategory.html"> <button id="updateBTN"> Update </button> </a>
+		<button id="addBTN"> Add Category </button>
+		<button id="updateBTN"> Update </button>
     </div>
 
     
