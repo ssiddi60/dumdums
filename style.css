@@ -785,3 +785,86 @@ border-radius: 100px;
   height:25px;
   width: 25px;
 }
+
+#question{
+  position: absolute;
+  left: 208px;
+  top: 395px;
+  height:25px;
+  width: 25px;
+}
+
+#welcomeMessage{
+  position: absolute;
+  left: 60px;
+  color: #000000;
+}
+
+#essentiallyDescript{
+  position: absolute;
+  left: 15px;
+  top: 80px;
+  color: #000000;
+}
+
+#listOfPages{
+  position: absolute;
+  right:20px;
+  top: 160px;
+  color: #000000;
+
+}
+
+#back{
+  position: absolute;
+  left: 6px;
+  top: 5px;
+  height:25px;
+  width: 25px;
+}
+
+#expensesMessage{
+  position: absolute;
+  left: 50px;
+  color: #000000;
+}
+
+#expensesDescript{
+  position: absolute;
+  left: 10px;
+  top: 40px;
+  font-size: 13px;
+  color: #000000;
+}
+
+#expensesItems{
+  position: absolute;
+  right:20px;
+  top: 115px;
+  font-size: 11px;
+  color: #000000;
+}
+
+#savingsDescript{
+  position: absolute;
+  left: 10px;
+  top: 50px;
+  font-size: 13px;
+  color: #000000;
+}
+
+#savingsItems{
+  position: absolute;
+  right:25px;
+  top: 125px;
+  font-size: 11px;
+  color: #000000;
+}
+
+#wishlistItems{
+  position: absolute;
+  right:25px;
+  top: 125px;
+  /*font-size: 11px;*/
+  color: #000000;
+}
